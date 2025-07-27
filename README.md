@@ -7,14 +7,14 @@
 
 ```javascript
 import {
-  formatDateToRU,
-  formatDateToUS,
+  formatDateToRu,
+  formatDateToUs,
 } from "https://cdn.jsdelivr.net/gh/alex-zander-0403/lib-date-formatter@main/lib/formatDate/formatDate.js";
 
 // Пример использования
 const date = new Date();
-console.log(formatDateToRU(date)); // <- ДД/ММ/ГГГГ ЧЧ:ММ
-console.log(formatDateToUS(date)); // <- ММ-ДД-ГГГГ ЧЧ:ММ
+console.log(formatDateToRu(date)); // <- ДД/ММ/ГГГГ ЧЧ:ММ
+console.log(formatDateToUs(date)); // <- ММ-ДД-ГГГГ ЧЧ:ММ
 ```
 
 ##
