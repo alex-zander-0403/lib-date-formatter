@@ -1,3 +1,10 @@
 {
-  "type": "module"
+  "name": "lib-date-formatter",
+  "version": "1.0.0",
+  "main": "lib/formatDate/formatDate.js",
+  "scripts": {},
+  "author": "https://github.com/alex-zander-0403",
+  "license": "MIT",
+  "description": "Библиотека для форматирования даты и времени под определенный стандарт",
+  "dependencies": {}
 }
