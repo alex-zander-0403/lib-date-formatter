@@ -6,15 +6,17 @@
 - формат US даты ММ-ДД-ГГ ЧЧ:ММ
 
 ```javascript
-import {
-  formatDateToRU,
-  formatDateToUS,
-} from "https://cdn.jsdelivr.net/gh/alexeirybak/JS-course@main/lib/formatDate/formatDate.js";
+<script type="module">
+  import {
+    formatDateToRU,
+    formatDateToUS,
+  } from "https://cdn.jsdelivr.net/gh/alexeirybak/JS-course@main/lib/formatDate/formatDate.js";
 
-// пример использования
-const date = new Date();
-console.log(formatDateToRU(date)); // <- ДД/ММ/ГГГГ ЧЧ:ММ
-console.log(formatDateToUS(date)); // <- ММ-ДД-ГГГГ ЧЧ:ММ
+  // Пример использования
+  const date = new Date();
+  console.log(formatDateToRU(date)); // <- ДД/ММ/ГГГГ ЧЧ:ММ
+  console.log(formatDateToUS(date)); // <- ММ-ДД-ГГГГ ЧЧ:ММ
+</script>
 ```
 
 ##
