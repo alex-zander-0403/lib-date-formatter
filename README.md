@@ -5,17 +5,17 @@
 - формат RU даты ДД/ММ/ГГ ЧЧ:ММ
 - формат US даты ММ-ДД-ГГ ЧЧ:ММ
 
-`<script type="module">
+```javascript
 import {
-formatDateToRU,
-formatDateToUS,
+  formatDateToRU,
+  formatDateToUS,
 } from "https://cdn.jsdelivr.net/gh/alexeirybak/JS-course@main/lib/formatDate/formatDate.js";
 
-// Пример использования
+// пример использования
 const date = new Date();
 console.log(formatDateToRU(date)); // <- ДД/ММ/ГГГГ ЧЧ:ММ
 console.log(formatDateToUS(date)); // <- ММ-ДД-ГГГГ ЧЧ:ММ
-</script>`
+```
 
 ##
 
