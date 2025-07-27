@@ -9,7 +9,7 @@
 import {
   formatDateToRu,
   formatDateToUs,
-} from "https://cdn.jsdelivr.net/gh/alex-zander-0403/lib-date-formatter@main/lib/formatDate/formatDate.js";
+} from "https://cdn.jsdelivr.net/gh/alex-zander-0403/lib-date-formatter@latest/lib/formatDate/formatDate.js";
 
 // Пример использования
 const date = new Date();
